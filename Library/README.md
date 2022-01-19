@@ -52,11 +52,11 @@ To configure the parameters in your implementation,
     
 * \* `angleSampleNumY/Z`:
     The number of samples used in angle around Y/Z axis.
+    Warning: The `angleSampleNumZ` must be even!
+    A larger `angleSampleNumY/Z` brings higher accuracy with larger computation cost.
     
 * `angleDotSampleNumY/Z`: (Deprecated)
     The number of samples used in angular velocity around Y/Z axis.
-    Warning: The `angleSampleNumZ` must be even!
-    A larger `angleSampleNumY/Z` brings higher accuracy with larger computation cost.
     We found angular velocity can hardly influence the AoA extraction. Thus, we remove this item.
     
 * \* `sincInterval`:
