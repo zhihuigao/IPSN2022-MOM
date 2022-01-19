@@ -25,7 +25,7 @@ In this example, we fix a single sound source and turn the smartphone for 360 de
 ![alt text](/data/Pixel4/example.png)
 
 1. Data Preparation: Check the source data `/data/Pixel4/example.wav` and run `/data/Pixel4/Audio2Mat.m` to create a temp file `/data/Pixel4/example.mat`.
-2. Parameter Configuration: Configure the parameters in `/Library/getParams2D.m`, the instruction of which can be found here.
+2. Parameter Configuration: Configure the parameters in `/Library/getParams2D.m`, the instruction of which can be found [here](/Library/).
 3. AoA Extraction: Run `/Extractor2D/main.m` to extract AoAs, which might take a few minutes. The extraction results are saved in `/data/Pixel4/example_result.mat`.
 
 To implement your own scenario, you can copy your audio files to `/data/YOUR_DATA` and repeat the steps above.
