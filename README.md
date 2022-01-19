@@ -10,7 +10,7 @@ In this example, we fix two sound sources and the microphone array for 5 seconds
 ![alt text](/data/ReSpeaker/example.png)
 
 1. Data Preparation: Check the source data `/data/ReSpeaker/example.wav` and run `/data/ReSpeaker/Audio2Mat.m` to create a temp file `/data/ReSpeaker/example.mat`.
-2. Parameter Configuration: Configure the parameters in `/Library/getParams.m`, the instruction of which can be found here.
+2. Parameter Configuration: Configure the parameters in `/Library/getParams.m`, the instruction of which can be found [here](/Library/).
 3. AoA Extraction: Run `/Extractor/main.m` to extract AoAs, which might take a few minutes. The extraction results are saved in `/data/ReSpeaker/example_result.mat`.
 
 To implement your own scenario, you can copy your audio files to `/data/YOUR_DATA` and repeat the steps above.
