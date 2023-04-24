@@ -34,14 +34,15 @@ Remenber to configure your own parameters in `getParams2D.m` and modify the file
 ## Reference
 If you find our work useful in your research, please consider citing our paper:\
 [MOM: Microphone based 3D Orientation Measurement](https://ieeexplore.ieee.org/abstract/document/9826109)
-`@inproceedings{gao2022mom,\
-  title={MOM: Microphone based 3D Orientation Measurement},\
-  author={Gao, Zhihui and Li, Ang and Li, Dong and Liu, Jialin and Xiong, Jie and Wang, Yu and Li, Bing and Chen, Yiran},\
-  booktitle={2022 21st ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)},\
-  pages={132--144},\
-  year={2022},\
-  organization={IEEE}\
-}`
+
+`@inproceedings{gao2022mom,`\
+&nbsp;&nbsp;&nbsp;&nbsp;`title={MOM: Microphone based 3D Orientation Measurement},`\
+&nbsp;&nbsp;&nbsp;&nbsp;`author={Gao, Zhihui and Li, Ang and Li, Dong and Liu, Jialin and Xiong, Jie and Wang, Yu and Li, Bing and Chen, Yiran},`\
+&nbsp;&nbsp;&nbsp;&nbsp;`booktitle={2022 21st ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)},`\
+&nbsp;&nbsp;&nbsp;&nbsp;`pages={132--144},`\
+&nbsp;&nbsp;&nbsp;&nbsp;`year={2022},`\
+&nbsp;&nbsp;&nbsp;&nbsp;`organization={IEEE}`\
+`}`
 
 If you have any further questions, please feel free to contact us at :D\
 zhihui.gao@duke.edu
